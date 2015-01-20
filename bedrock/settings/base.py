@@ -310,6 +310,20 @@ MINIFY_BUNDLES = {
             'css/firefox/menu-resp.less',
             'css/firefox/developer.less',
         ),
+        'firefox_fx36_firstrun': (
+            'css/sandstone/sandstone.less',
+            'css/firefox/australis/australis-ui-tour.less',
+            'css/firefox/australis/fx36/common.less',
+        ),
+        'firefox_fx36_whatsnew': (
+            'css/sandstone/sandstone.less',
+            'css/firefox/australis/australis-ui-tour.less',
+            'css/firefox/australis/fx36/common.less',
+        ),
+        'firefox_fx36_whatsnew_no_tour': (
+            'css/sandstone/sandstone.less',
+            'css/firefox/australis/fx36/common.less',
+        ),
         'firefox_hello_start': (
             'css/sandstone/sandstone-resp.less',
             'css/firefox/hello/start.less',
@@ -759,6 +773,25 @@ MINIFY_BUNDLES = {
             'js/firefox/australis/australis-uitour.js',
             'js/base/mozilla-modal.js',
             'js/firefox/dev-firstrun.js',
+        ),
+        'firefox_fx36_firstrun': (
+            'js/firefox/australis/australis-uitour.js',
+            'js/firefox/australis/browser-tour.js',
+            'js/firefox/australis/fx36/common.js',
+            'js/firefox/australis/fx36/firstrun.js',
+        ),
+        'firefox_fx36_whatsnew': (
+            'js/firefox/australis/australis-uitour.js',
+            'js/firefox/australis/browser-tour.js',
+            'js/firefox/australis/fx36/common.js',
+            'js/firefox/australis/fx36/whatsnew.js',
+        ),
+        'firefox_fx36_whatsnew_no_tour': (
+            'js/firefox/australis/fx36/common.js',
+        ),
+        'firefox_hello_start': (
+            'js/firefox/australis/australis-uitour.js',
+            'js/firefox/hello/start.js',
         ),
         'firefox_new': (
             'js/libs/jquery-1.11.0.min.js',

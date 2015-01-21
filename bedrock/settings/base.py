@@ -236,6 +236,7 @@ MINIFY_BUNDLES = {
         'firefox_desktop': (
             'css/sandstone/sandstone-resp.less',
             'css/firefox/desktop/intro-anim.less',
+            'css/base/svg-animation-check.less',
             'css/firefox/desktop/index.less',
         ),
         'firefox_desktop_fast': (
@@ -314,6 +315,7 @@ MINIFY_BUNDLES = {
             'css/sandstone/sandstone-resp.less',
             'css/firefox/menu-resp.less',
             'css/base/mozilla-modal.less',
+            'css/base/svg-animation-check.less',
             'css/firefox/hello/index.less',
         ),
         'firefox_new': (
